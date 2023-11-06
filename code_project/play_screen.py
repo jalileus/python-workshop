@@ -84,7 +84,7 @@ class Play:
                 food.RandomizeFood()  # randomize the position of the next food object
             if snake.GetHead() == food.pos_bouns:
                 snake.length += 2
-                score += 1
+                score += 3
                 food.RandomizeBouns()
             snake.DrawSnake(screen, snake_color)  # draw snake
             food.DrawFood(screen)  # draw food
