@@ -36,7 +36,7 @@ class Level:
             return 5
         elif curr_score > 45 and curr_score <= 70:
             return 6
-        elif curr_score > 70 and curr_score < 100:
+        elif curr_score > 70 and curr_score <= 100:
             return 7
         elif curr_score > 100:
             return 8
