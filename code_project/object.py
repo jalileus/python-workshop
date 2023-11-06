@@ -83,8 +83,8 @@ class Food:
         pygame.draw.rect(window, self.color_food, rect)
         pygame.draw.rect(window, "red", rect, 1)
 
-    def SlowBonus(self, window, scour):
-        if scour == 5 or scour == 15 or scour == 20 or scour == 45:
+    def SlowBonus(self, window, score):
+        if score == 5 or score == 15 or score == 25 or score == 35 or score == 45 or score == 65:
             rect = pygame.Rect(
                 (self.pos_bouns[0], self.pos_bouns[1]),
                 (screen_builder.GRIDSIZE, screen_builder.GRIDSIZE),
